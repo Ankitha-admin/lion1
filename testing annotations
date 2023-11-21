@@ -1,0 +1,16 @@
+@Test: To test the test case.
+@DisplayedName: Replace the method name with other .
+@BeforeEach:Executes something before each test method.
+@AfterEach :Executes something after each test method.
+@BeforeAll:Executes once before test methods.
+@AfterAll:Executes once after test methods.
+@Disabled:ignoring the test case
+@TestMethodOrder:it specifies the order of testmethods by alphanumeric or random values.
+@RepeatedTest:repaeting test methods multiple times.(value=2)
+@Tag:filtering the test methods in which environment it will runs.
+for temporary we can configure in include and exclude tags
+orelse add a plugin in pom.xml(maven-surfire-plugin)
+
+
+
+ 
